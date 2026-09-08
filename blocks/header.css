@@ -1,22 +1,27 @@
 .header {
-  border: red solid 1px;
   margin: 34px auto 91.06px;
   display: flex;
 }
 .header__logo {
-  border: red solid 1px;
   margin: 0 auto;
   width: 254.84px;
   height: 68.94px;
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   .header {
-    border: green solid 1px;
     margin: 30px auto 90px;
   }
   .header__logo {
-    border: green solid 1px;
     width: 254px;
     height: 66px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .header {
+    margin: 20px auto 50px;
+  }
+  .header__logo {
+    width: 188px;
+    height: 52px;
   }
 }
