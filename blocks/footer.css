@@ -1,0 +1,34 @@
+.footer {
+  border: red solid 1px;
+  width: 984px;
+  display: flex;
+  margin: 0 auto 24px;
+}
+.footer__copyright {
+  border: red solid 1px;
+  margin: 0 auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  text-align: right;
+}
+/* __copyright */
+
+position: absolute;
+width: 194px;
+height: 16px;
+left: 543px;
+top: 1968px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+text-align: right;
+
+color: #ffffff;

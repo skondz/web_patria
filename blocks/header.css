@@ -1,0 +1,11 @@
+.header {
+  border: red solid 1px;
+  margin: 34px auto 91.06px;
+  display: flex;
+}
+.header__logo {
+  border: red solid 1px;
+  margin: 0 auto;
+  width: 254.84px;
+  height: 68.94px;
+}
