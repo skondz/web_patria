@@ -1,0 +1,15 @@
+.photo-grid {
+  border: red solid 1px;
+  max-width: 1184px;
+  margin: 0 auto;
+}
+.photo-grid__list {
+  border: red solid 1px;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 284px 284px 284px 284px;
+  grid-template-rows: 213px 213px;
+  gap: 16px;
+}
