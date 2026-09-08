@@ -45,3 +45,33 @@
   line-height: 163%;
   margin: 0;
 }
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .intro {
+    border: green solid 1px;
+    max-width: 768px;
+    margin-bottom: 80px;
+  }
+  .intro__title {
+    border: green solid 1px;
+    max-width: 707px;
+    font-size: 45px;
+    line-height: 49px;
+    margin-bottom: 50px;
+  }
+  .intro__text {
+    border: green solid 1px;
+    max-width: 720px;
+  }
+  .intro__text:nth-of-type(1) {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .intro__text:nth-of-type(2) {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .intro__text:nth-of-type(3) {
+    font-size: 16px;
+    line-height: 153%;
+  }
+}
