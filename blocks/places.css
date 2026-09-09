@@ -1,0 +1,110 @@
+.places {
+  margin: 0 auto 90px;
+  max-width: 984px;
+}
+.place {
+  display: grid;
+  grid-template-rows: 1fr 206px 206px auto;
+  grid-template-columns: 460px auto;
+  gap: 48px 40px;
+  margin: 0 0 80px;
+}
+.place__title {
+  margin: red solid 1px;
+
+  margin: 0;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #ffffff;
+}
+.place__button {
+  grid-column: 1/1;
+  grid-row: 4/5;
+  margin: 0;
+
+  width: 289px;
+  height: 48px;
+  padding: 13px 20px;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+.place__button:hover {
+  opacity: 25%;
+}
+
+.place__image {
+  grid-column: 1/1;
+  grid-row: 2/4;
+  width: 100%;
+  height: 100%;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+}
+.place__image:hover {
+  opacity: 50%;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 1);
+}
+
+.place__website {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+  max-width: 456px;
+  max-height: 67px;
+  margin: 85px 0 0;
+}
+.place__url-heading {
+  max-height: 15px;
+  margin: auto 0 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  letter-spacing: 0.12em;
+}
+.place__artist {
+  margin: 0;
+  max-height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.place__text {
+  grid-column: 2/3;
+  grid-row: 2/5;
+  max-width: 484px;
+}
+.place__paragraph {
+  margin: 0 0 25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #ffffff;
+}
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
